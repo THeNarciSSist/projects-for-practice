@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding: 2rem 1.5rem 1.8rem 1.5rem;
+	background-color: rgb(227,5,18);
+	transition: all .7s;
+}
+
+.color-1 {
+	background-color: rgb(255,255,255);
+}
+
+.color-2 {
+	background-color: rgb(0,193,181);
+}
+
+.color-3 {
+	background-color: rgb(255,101,25);
+}
+
+.color-4 {
+	background-color: rgb(255,190,0);
+}
+
+.color-5 {
+	background-color: rgb(29,63,187)
+}
+
+.color-6 {
+	background-color: rgb(227,5,18);
+}
+
+.container {
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header__icon {
+	width: 26rem;
+	height: auto;
+}
+
+
+.item {
+	flex: 1;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: all .4s linear;
+}
+
+.item:not(:first-child) {
+	margin-top: 5rem;
+}
+
+.issue-img {
+	width: 50%;
+}
+.default-typography {
+color: #251d20;
+font-size: 1.8rem;
+font-weight: bold; 
+line-height: 2.5rem;
+}
+
+.text {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem 0;
+}
+
+.text__buy-link {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	text-decoration: none;
+	color: #e568ac;
+}
+
+.text__buy-link:hover {
+	text-decoration: underline;
+}
+
+.text__stores {
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	font-weight: 700;
+}
+
+.text__stores-link {
+	text-decoration: none;
+	color: #e568ac;
+}
+
+.text__stores-link:hover {
+	text-decoration: underline;
+}
+
+.colorful {
+	color: #fff;
+}
+
+
+footer {
+	display: flex;
+	margin-top: 3rem;
+	flex-direction: column;
+}
+
+.about {
+	width: 25%;
+	margin-bottom: 3rem;
+}
+
+.copyright {
+	margin-top: .8rem;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+.published-by {
+	color: #251d20;
+}
+
+.published-by:hover {
+	text-decoration: none;
+}
+
+.policy-and-email {
+	display: flex;
+	justify-content: space-between;
+}
+
+.policy:hover {
+	text-decoration: none;
+}
+
+.email {
+	text-decoration: none;
+}
+
+.email:hover {
+	text-decoration: underline;
+}
+
