@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Star Wars API</title>
+  </head>
+  <body class="body">
+    <div class="loading-animation">
+      <div class="lds-dual-ring"></div>
+    </div>
+    <div class="notification invisible">Scroll down to view content</div>
+    <div class="container">
+      <header class="header">
+        <div class="introduction">
+          <h1 class="star-wars">Star Wars</h1>
+          <h2 class="homework-title">Working with the server</h2>
+        </div>
+        <div class="links">
+          <a href="https://swapi.dev/" class="button api-link">api</a>
+          <a
+            href="https://github.com/THeNarciSSist/cursor-homework/tree/master/12-cursor-homework"
+            class="button github-link"
+            >GitHub</a
+          >
+        </div>
+        <div class="mouse-animation">&nbsp;</div>
+      </header>
+      <main>
+        <section class="section-characters">
+          <div class="form">
+            <form class="subform" name="subform" action="">
+              <span class="text"
+                >Choose any film (Default: "The Empire Strikes Back")</span
+              >
+              <select class="select-film" name="filmnum" id="filmid">
+                <option value="1">A New Hope</option>
+                <option value="2">The Empire Strikes Back</option>
+                <option value="3">Return of the Jedi</option>
+                <option value="4">The Phantom Menace</option>
+                <option value="5">Attack of the Clones</option>
+                <option value="6">Revenge of the Sith</option>
+              </select>
+              <input
+                class="submit-button"
+                id="submit-button"
+                type="button"
+                name="submit"
+                value="Submit"
+              />
+            </form>
+          </div>
+          <ul class="characters"></ul>
+        </section>
+
+        <section class="section-planets">
+          <div class="buttons">
+            <span class="text show-planets"
+              >Click buttons to show list of planets</span
+            >
+            <button class="submit-button show">Show</button>
+            <button class="submit-button previous">Previous</button>
+            <button class="submit-button next">Next</button>
+          </div>
+          <ol class="planets-list"></ol>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-info">Something like footer</div>
+    </footer>
+  </body>
+  <script type="module" src="js/script.js"></script>
+</html>
