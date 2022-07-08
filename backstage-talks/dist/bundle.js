@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelectorAll(".item");let t=new IntersectionObserver((e=>{e.forEach((e=>{document.body.classList.toggle(`color-${e.target.id}`,e.isIntersecting)}))}),{threshold:.35});e.forEach((e=>{t.observe(e)}))})();

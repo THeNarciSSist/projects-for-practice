@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding: 2rem 1.5rem 1.8rem 1.5rem;
+	background-color: rgb(227,5,18);
+	transition: all .7s;
+}
